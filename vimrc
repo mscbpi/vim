@@ -10,6 +10,8 @@ set cursorline          " highlight current line
 set wildmenu            " visual autocomplete for command menu
 set lazyredraw          " redraw only when we need to.
 set showmatch           " highlight matching [{()}]
+"autoindent
+set autoindent          " replicate indentiation from previous line
 filetype indent on      " load filetype-specific indent files
 set shiftwidth=2        " number of spaces when indenting
 " move vertically by visual line
